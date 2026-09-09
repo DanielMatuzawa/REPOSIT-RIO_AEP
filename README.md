@@ -8,11 +8,11 @@ O projeto foi desenvolvido como parte da **AEP — 2º semestre de 2026**, no cu
 
 Nesta primeira etapa, o foco do projeto está na **análise do problema, definição dos requisitos, elaboração dos algoritmos e planejamento do desenvolvimento**.
 
-## 🎯 Objetivo
+##  Objetivo
 
 Desenvolver uma aplicação simples, executada em ambiente de terminal, capaz de auxiliar uma equipe escolar e de saúde no planejamento e acompanhamento de ações de **vacinação e saúde bucal**, mantendo as informações organizadas e preservando a privacidade dos estudantes.
 
-## 📋 Funcionalidades planejadas
+##  Funcionalidades planejadas
 
 O sistema deverá permitir:
 
@@ -25,19 +25,19 @@ O sistema deverá permitir:
 * Validar as entradas fornecidas pelo usuário;
 * Impedir o cadastro de códigos duplicados e quantidades inválidas.
 
-## 💻 Tecnologia
+##  Tecnologia
 
 * **Linguagem:** C
 * **Execução prevista:** ambiente de terminal
 * **Conceitos:** estruturas condicionais, estruturas de repetição, vetores, `struct` e funções.
 
-## 👥 Integrantes
+##  Integrantes
 
 * Daniel Matuzawa dos Santos
 * Gabriel Ferreira Matos
 * Henry Jun Sasakura
 
-## 📚 Documentação
+##  Documentação
 
 A documentação referente à primeira etapa da AEP está disponível na pasta `docs/`.
 
@@ -49,7 +49,7 @@ A documentação contempla os materiais desenvolvidos pelo grupo, incluindo:
 * Pseudocódigos;
 * Demais materiais relacionados ao planejamento do projeto.
 
-## 🔒 Limitações e privacidade
+##  Limitações e privacidade
 
 O projeto utilizará exclusivamente **dados fictícios e informações coletivas**.
 
@@ -57,7 +57,7 @@ O sistema não deverá armazenar nomes, diagnósticos, prontuários ou qualquer 
 
 A aplicação possui finalidade acadêmica e não realizará diagnósticos, triagens médicas, prescrições ou recomendações de tratamento.
 
-## 📌 Situação do projeto
+##  Situação do projeto
 
 **Etapa 1 — Análise e planejamento**
 
