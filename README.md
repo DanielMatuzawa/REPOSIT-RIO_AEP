@@ -2,36 +2,34 @@
 
 ## Sistema de Planejamento e Acompanhamento de Ações de Saúde na Escola
 
-O **PSE em Ação** é uma aplicação desenvolvida em linguagem C para auxiliar no planejamento, registro e acompanhamento de ações coletivas do Programa Saúde na Escola (PSE).
+O **PSE em Ação** é uma proposta de aplicação desenvolvida em linguagem C para auxiliar no planejamento, registro e acompanhamento de ações coletivas do **Programa Saúde na Escola (PSE)**.
 
-O projeto foi desenvolvido como parte da **AEP — 2º semestre de 2026**, pelos alunos do curso de Engenharia de Software da UniCesumar.
+O projeto foi desenvolvido como parte da **AEP — 2º semestre de 2026**, no curso de Engenharia de Software da UniCesumar.
+
+Nesta primeira etapa, o foco do projeto está na **análise do problema, definição dos requisitos, elaboração dos algoritmos e planejamento do desenvolvimento**.
 
 ## 🎯 Objetivo
 
-Desenvolver uma aplicação simples, executada em ambiente de terminal, capaz de organizar informações sobre ações de **vacinação e saúde bucal**, permitindo seu cadastro, consulta, atualização e acompanhamento.
+Desenvolver uma aplicação simples, executada em ambiente de terminal, capaz de auxiliar uma equipe escolar e de saúde no planejamento e acompanhamento de ações de **vacinação e saúde bucal**, mantendo as informações organizadas e preservando a privacidade dos estudantes.
 
-## ⚙️ Funcionalidades
+## 📋 Funcionalidades planejadas
 
-O sistema possui as seguintes funcionalidades:
+O sistema deverá permitir:
 
-* Cadastro de ações;
-* Listagem de ações cadastradas;
-* Pesquisa por código, escola ou tema;
-* Atualização da situação da ação;
-* Registro da quantidade efetiva de participantes;
-* Geração de resumo geral das ações;
-* Validação das entradas do usuário;
-* Verificação de códigos duplicados;
-* Controle de quantidades inválidas.
+* Cadastrar ações de vacinação e saúde bucal;
+* Listar as ações cadastradas;
+* Pesquisar ações por código, escola ou tema;
+* Atualizar a situação das ações;
+* Registrar a quantidade efetiva de participantes quando a ação for realizada;
+* Gerar um resumo geral das ações e da participação;
+* Validar as entradas fornecidas pelo usuário;
+* Impedir o cadastro de códigos duplicados e quantidades inválidas.
 
-## 💻 Tecnologias utilizadas
+## 💻 Tecnologia
 
-* Linguagem C
-* Aplicação executada em terminal
-* Estruturas condicionais e de repetição
-* Vetores
-* `struct`
-* Funções
+* **Linguagem:** C
+* **Execução prevista:** ambiente de terminal
+* **Conceitos:** estruturas condicionais, estruturas de repetição, vetores, `struct` e funções.
 
 ## 👥 Integrantes
 
@@ -39,61 +37,30 @@ O sistema possui as seguintes funcionalidades:
 * Gabriel Ferreira Matos
 * Henry Jun Sasakura
 
-## 📁 Estrutura do projeto
-
-```text
-PSE-EM-ACAO/
-│
-├── README.md
-│
-├── src/
-│   └── pse_em_acao.c
-│
-└── docs/
-    ├── AEP_PSE_em_Acao.pdf
-    ├── Fluxograma_Geral.png
-    ├── Fluxograma_Cadastro.png
-    └── Pseudocodigos.pdf
-```
-
-## ▶️ Como executar
-
-### Pré-requisitos
-
-É necessário possuir um compilador da linguagem C instalado, como o GCC.
-
-### Compilação
-
-```bash
-gcc src/pse_em_acao.c -o pse_em_acao
-```
-
-### Execução
-
-No Windows:
-
-```bash
-pse_em_acao.exe
-```
-
-No Linux:
-
-```bash
-./pse_em_acao
-```
-
 ## 📚 Documentação
 
-A documentação do projeto está disponível na pasta `docs`, contendo:
+A documentação referente à primeira etapa da AEP está disponível na pasta `docs/`.
+
+A documentação contempla os materiais desenvolvidos pelo grupo, incluindo:
 
 * Documento da AEP;
 * Fluxograma geral do sistema;
-* Fluxograma detalhado do cadastro;
+* Fluxograma detalhado da operação de cadastro;
 * Pseudocódigos;
-* Outros materiais relacionados ao desenvolvimento.
+* Demais materiais relacionados ao planejamento do projeto.
 
-## 📌 Escopo
+## 🔒 Limitações e privacidade
 
-O sistema trabalha exclusivamente com **dados fictícios e informações coletivas**. Não são armazenados nomes, diagnósticos, prontuários ou informações clínicas individuais de estudantes.
+O projeto utilizará exclusivamente **dados fictícios e informações coletivas**.
 
-O projeto possui caráter acadêmico e não realiza diagnóstico, triagem médica, prescrição ou recomendação de tratamentos.
+O sistema não deverá armazenar nomes, diagnósticos, prontuários ou qualquer informação clínica individual dos estudantes.
+
+A aplicação possui finalidade acadêmica e não realizará diagnósticos, triagens médicas, prescrições ou recomendações de tratamento.
+
+## 📌 Situação do projeto
+
+**Etapa 1 — Análise e planejamento**
+
+Nesta etapa, foram desenvolvidos a contextualização do problema, questão norteadora, objetivos, justificativa, definição dos usuários, escopo, requisitos, fluxogramas e planejamento das sprints.
+
+A implementação completa do sistema será realizada na etapa seguinte da AEP.
