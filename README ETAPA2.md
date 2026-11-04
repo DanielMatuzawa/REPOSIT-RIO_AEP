@@ -19,16 +19,7 @@ Opção	Função
 5	Gerar resumo geral (ações por situação, total de participantes e percentual de participação)
 6	Sair
 O programa também valida as entradas: campos vazios, valores inválidos ou negativos, data fora do formato dd/mm/aaaa, código repetido, código inexistente e limite de 100 ações.
-▶️ Como compilar e executar
-É necessário ter um compilador de C instalado, como o GCC. Na pasta do repositório, compile com:
-```
-gcc -Wall -o pse src/main.c
-```
-Depois, execute:
-```
-./pse          # Linux e macOS
-pse.exe        # Windows
-```
+
 Também é possível abrir o arquivo `src/main.c` em uma IDE com suporte a C, compilar e executar pelo próprio ambiente.
 💻 Tecnologia
 Linguagem: C (padrão C99), apenas biblioteca padrão
