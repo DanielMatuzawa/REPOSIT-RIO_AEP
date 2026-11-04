@@ -2,12 +2,8 @@ PSE em Ação
 Sistema de Planejamento e Acompanhamento de Ações de Saúde na Escola
 O PSE em Ação é uma aplicação desenvolvida em linguagem C, executada no terminal, para auxiliar no planejamento, registro e acompanhamento de ações coletivas do Programa Saúde na Escola (PSE).
 O projeto foi desenvolvido como parte da AEP — 2º semestre de 2026, no curso de Engenharia de Software da UniCesumar.
-	
-Curso	Engenharia de Software
-Série	ESOFT2SMB
-Ano	2026
 
-Temas trabalhados	Vacinação e Saúde Bucal
+TEMA TRABALHADO:	Vacinação e Saúde Bucal
 
 🎯 Objetivo
 Auxiliar uma equipe escolar e de saúde no planejamento e acompanhamento de ações de vacinação e saúde bucal, mantendo as informações organizadas e preservando a privacidade dos estudantes.
