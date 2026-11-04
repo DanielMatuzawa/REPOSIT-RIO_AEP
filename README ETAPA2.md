@@ -42,21 +42,32 @@ Conceitos: estruturas condicionais, estruturas de repetição, vetores, `struct`
 └── README.md
 ```
 👥 Integrantes
+
 Daniel Matuzawa dos Santos
+
 Gabriel Ferreira Matos
+
 Henry Jun Sasakura
+
 📚 Documentação
+
 A pasta `docs/` reúne os materiais da AEP:
 Etapa 1: documento da AEP, fluxogramas e pseudocódigos;
+
 Etapa 2: documento final com casos de uso, requisitos atualizados, testes, manual do usuário, capturas de tela e considerações finais;
+
 Link do vídeo de apresentação: [inserir o link]
+
 🔒 Limitações e privacidade
+
 O projeto utiliza exclusivamente dados fictícios e informações coletivas. O sistema não armazena nomes, diagnósticos, prontuários ou qualquer informação clínica individual dos estudantes, e não realiza diagnósticos, triagens médicas, prescrições ou recomendações de tratamento.
+
 Limitações atuais:
+
 Os dados ficam apenas na memória e são perdidos ao encerrar o programa;
+
 O limite é de 100 ações por execução;
+
 Não é possível editar ou excluir ações já cadastradas;
+
 A validação da data não confere se o dia existe no mês (por exemplo, 31/02).
-📌 Situação do projeto
-Etapa 1 — Análise e planejamento ✅
-Etapa 2 — Implementação e apresentação ✅ código em C, testes e documentação concluídos
