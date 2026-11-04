@@ -6,18 +6,28 @@ O projeto foi desenvolvido como parte da AEP — 2º semestre de 2026, no curso 
 Curso	Engenharia de Software
 Série	ESOFT2SMB
 Ano	2026
+
 Temas trabalhados	Vacinação e Saúde Bucal
+
 🎯 Objetivo
 Auxiliar uma equipe escolar e de saúde no planejamento e acompanhamento de ações de vacinação e saúde bucal, mantendo as informações organizadas e preservando a privacidade dos estudantes.
+
 ✅ Funcionalidades
 O programa possui um menu com as seguintes opções:
 Opção	Função
+
 1	Cadastrar ação
+
 2	Listar ações
+
 3	Pesquisar ação (por código, escola ou tema)
+
 4	Atualizar situação da ação (planejada, realizada ou cancelada) e registrar a quantidade efetiva de participantes
+
 5	Gerar resumo geral (ações por situação, total de participantes e percentual de participação)
+
 6	Sair
+
 O programa também valida as entradas: campos vazios, valores inválidos ou negativos, data fora do formato dd/mm/aaaa, código repetido, código inexistente e limite de 100 ações.
 
 Também é possível abrir o arquivo `src/main.c` em uma IDE com suporte a C, compilar e executar pelo próprio ambiente.
